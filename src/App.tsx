@@ -7,10 +7,6 @@ function App() {
       <h1 className="login">
         Faça o Login
       </h1>
-
-      <input type="text" />
-      <input type="password" />
-      <button className="sendFormsInfos">Entrar</button>
     </Layout>
   );
 }

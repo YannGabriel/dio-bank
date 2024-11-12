@@ -1,0 +1,26 @@
+
+
+button.FormTarget{
+  background-color: lightblue;
+  border: none;
+  margin: auto;
+  display: flex;
+  width: 50%;
+  padding: 20px 10px;
+  border-radius: 16px;
+
+  .textValue{
+    text-align: center;
+    display: flex;
+    font-size: 1.25rem;
+    margin: auto;
+  }
+}
+
+button.FormTarget:active{
+  background-color: white;
+  color: lightblue;
+  border: 1px solid lightblue;
+  transform: scale(1.05);
+  transition: all 0.05s ease-in;
+}
