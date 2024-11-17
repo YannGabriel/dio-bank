@@ -1,7 +1,8 @@
 
+@import '../SASS/colors';
 
 button.FormTarget{
-  background-color: lightblue;
+  background-color: $primary;
   border: none;
   margin: auto;
   display: flex;
@@ -10,6 +11,7 @@ button.FormTarget{
   border-radius: 16px;
 
   .textValue{
+    color: $titles;
     text-align: center;
     display: flex;
     font-size: 1.25rem;
@@ -18,9 +20,12 @@ button.FormTarget{
 }
 
 button.FormTarget:active{
-  background-color: white;
-  color: lightblue;
-  border: 1px solid lightblue;
+  background-color: $titles;
+  color: $primary;
+  border: 1px solid $primary;
   transform: scale(1.05);
   transition: all 0.05s ease-in;
+  .textValue{
+    color: $primary;
+  }
 }

@@ -25,6 +25,8 @@ code {
   font-weight: 600;
 }
 
+
+@import './components/SASS/colors';
 @import './components/Header/header';
 @import './components/Button/button';
 @import './components/Input/input';
